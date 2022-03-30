@@ -1,0 +1,26 @@
+---
+title: "Homework 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+Machine Learning Main Ideas
+
+Question 1:
+"supervised statistical learning involves building a statistical model for predicting, or estimating, an output based on one or more inputs."
+"With unsupervised statistical learning, there are inputs but no supervising output"
+
+
+Question 2:
+
+
+
+
+
+
+
+
