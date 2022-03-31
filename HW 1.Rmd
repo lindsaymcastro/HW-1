@@ -24,6 +24,40 @@ The two commonly used Performance metrics for classification problems are Accura
 
 
 Question 4:
+Descriptive models are used typically to choose model to best visually emphasize a trend in data.
+
+Inferential models are aimed to test theories and state the relationship between outcome and predictor(s).
+
+Predictive models are aimed to predict Y with minimum redicuble error, and are not focused on hypothesis tests.
+(from Lecture Slides Day 2)
+
+
+Question 5:
+Mechanistic assumes a parametric form for f, and you can usually add parameters, which allows more flexibility.
+Empirically-driven means that there are no assumptions made about f, which requires a large number of observations. 
+They are similar because both can be overfitting for the data modeled, and both are pretty flexible as well.
+
+
+
+the parametric approach will outperform the non- parametric approach if the parametric form that has been selected is close to the true form of f
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
