@@ -11,11 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 Machine Learning Main Ideas
 
 Question 1:
-"[S]upervised statistical learning involves building a statistical model for predicting, or estimating, an output based on one or more inputs" and "unsupervised statistical learning, there are inputs but no supervising output" (from pg. 1 of book)
+"[S]upervised statistical learning involves building a statistical model for predicting, or estimating, an output based on one or more inputs" and 
+"unsupervised statistical learning, there are inputs but no supervising output" (from pg. 1 of book)
 
 
 Question 2:
-The difference between a regression model and a classification model is that the regression model has a quantitative response, while a classification model has a qualitative response. 
+The difference between a regression model and a classification model is that the regression model has a quantitative response, while a classification 
+model has a qualitative response. 
 
 
 Question 3:
@@ -37,9 +39,20 @@ Mechanistic assumes a parametric form for f, and you can usually add parameters,
 Empirically-driven means that there are no assumptions made about f, which requires a large number of observations. 
 They are similar because both can be overfitting for the data modeled, and both are pretty flexible as well.
 
+In general, empirically-driven models are easier to understand because they are based on observation rather than theory. Sometimes mechanistic models rely
+on formulas and theories that may not always accurately depict the data being modeled, especially for the real world.
+
+[Still need to answer the third part of question (Bias-Variance)]
 
 
-the parametric approach will outperform the non- parametric approach if the parametric form that has been selected is close to the true form of f
+Question 6:
+The first question is inferential because it is using the voter's profile/data to estimate the likelihood that it will vote in favor of the candidate. 
+Also the sampling size is rather large in comparison to the second question. Additionally, the analysis will infer properties from tests and estimates.
+
+
+The second question is predictive because it is using a smaller subset of voters to predict whether their personal contact with the candidate would change
+a voter's likelihood to support a candidate. This analysis focuses more on the past behavior of the candidates to predict their likelihood of support.
+
 
 
 
