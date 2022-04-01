@@ -8,49 +8,48 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-Machine Learning Main Ideas
+### Machine Learning Main Ideas
 
-Question 1:
+#### Question 1:
 "[S]upervised statistical learning involves building a statistical model for predicting, or estimating, an output based on one or more inputs" and 
 "unsupervised statistical learning, there are inputs but no supervising output" (from pg. 1 of book)
 
 
-Question 2:
+#### Question 2:
 The difference between a regression model and a classification model is that the regression model has a quantitative response, while a classification 
 model has a qualitative response. 
 
 
-Question 3:
+#### Question 3:
 The two commonly used metrics in regression are Root Mean Squared Error (RMSE) and Mean Absoulte Error (MAE). 
 The two commonly used Performance metrics for classification problems are Accuracy, and Confusion Matrix.
 
 
-Question 4:
-Descriptive models are used typically to choose model to best visually emphasize a trend in data.
+#### Question 4:
+* Descriptive models are used typically to choose model to best visually emphasize a trend in data.
 
-Inferential models are aimed to test theories and state the relationship between outcome and predictor(s).
+* Inferential models are aimed to test theories and state the relationship between outcome and predictor(s).
 
-Predictive models are aimed to predict Y with minimum redicuble error, and are not focused on hypothesis tests.
+* Predictive models are aimed to predict Y with minimum reducible error, and are not focused on hypothesis tests.
 (from Lecture Slides Day 2)
 
 
-Question 5:
-Mechanistic assumes a parametric form for f, and you can usually add parameters, which allows more flexibility.
+#### Question 5:
+* Mechanistic assumes a parametric form for f, and you can usually add parameters, which allows more flexibility.
 Empirically-driven means that there are no assumptions made about f, which requires a large number of observations. 
 They are similar because both can be overfitting for the data modeled, and both are pretty flexible as well.
 
-In general, empirically-driven models are easier to understand because they are based on observation rather than theory. Sometimes mechanistic models rely
-on formulas and theories that may not always accurately depict the data being modeled, especially for the real world.
+* In general, empirically-driven models are easier to understand because they are based on observation rather than theory. Sometimes mechanistic models 
+rely on formulas and theories that may not always accurately depict the data being modeled, especially for the real world.
 
-[Still need to answer the third part of question (Bias-Variance)]
+* [Still need to answer the third part of question (Bias-Variance)]
 
 
-Question 6:
-The first question is inferential because it is using the voter's profile/data to estimate the likelihood that it will vote in favor of the candidate. 
+#### Question 6:
+* The first question is inferential because it is using the voter's profile/data to estimate the likelihood that it will vote in favor of the candidate. 
 Also the sampling size is rather large in comparison to the second question. Additionally, the analysis will infer properties from tests and estimates.
 
-
-The second question is predictive because it is using a smaller subset of voters to predict whether their personal contact with the candidate would change
+* The second question is predictive because it is using a smaller subset of voters to predict whether their personal contact with the candidate would change
 a voter's likelihood to support a candidate. This analysis focuses more on the past behavior of the candidates to predict their likelihood of support.
 
 
