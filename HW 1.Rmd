@@ -53,6 +53,10 @@ Also the sampling size is rather large in comparison to the second question. Add
 a voter's likelihood to support a candidate. This analysis focuses more on the past behavior of the candidates to predict their likelihood of support.
 
 
+```{r}
+install.packages("tidyverse")
+library(tidyverse)
+```
 
 
 
