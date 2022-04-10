@@ -115,10 +115,19 @@ There is a pattern in the the relationship between highway mpg and number of cyl
 
 #### Exercise 5:
 ```{r}
+#install.packages("corrplot")
+library(corrplot)
 
+M <- mpg %>%
+   select(where(is.numeric)) %>%
+   cor() %>%
+   corrplot(type = 'lower', diag = TRUE,
+           method = 'number')
 ```
 
-
+The variables negatively correlated with each other are displ and hwy, displ and cty, cyl and hwy, and cyl and cty. The positively correlated variables 
+are displ and year, cyl and year, and cty and hwy. There are a couple of neutral variables which are year with cty and hwy. For the most part these 
+relationships make sense because it represents how each variable affects the mpg in city and hwy.
 
 
 
